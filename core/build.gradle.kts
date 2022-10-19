@@ -22,10 +22,10 @@ kotlin {
         framework {
             baseName = "core"
         }
-        xcodeConfigurationToNativeBuildType["Debug Staging"] = NativeBuildType.DEBUG
-        xcodeConfigurationToNativeBuildType["Debug Production"] = NativeBuildType.DEBUG
-        xcodeConfigurationToNativeBuildType["Release Staging"] = NativeBuildType.RELEASE
-        xcodeConfigurationToNativeBuildType["Release Production"] = NativeBuildType.RELEASE
+        xcodeConfigurationToNativeBuildType["DebugStaging"] = NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["DebugProduction"] = NativeBuildType.DEBUG
+        xcodeConfigurationToNativeBuildType["ReleaseStaging"] = NativeBuildType.RELEASE
+        xcodeConfigurationToNativeBuildType["ReleaseProduction"] = NativeBuildType.RELEASE
     }
     
     sourceSets {
